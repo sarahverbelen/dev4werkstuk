@@ -1,0 +1,26 @@
+{
+  "name": "dev4",
+  "version": "1.0.0",
+  "description": "Werkstuk voor development 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmcp/ehbdev4werkstuk.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "Maarten Lauwaert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmcp/ehbdev4werkstuk/issues"
+  },
+  "homepage": "https://github.com/pmcp/ehbdev4werkstuk#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0"
+  }
+}

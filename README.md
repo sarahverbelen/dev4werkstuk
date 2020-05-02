@@ -3,7 +3,8 @@
 ## Approach
 * First I did a functional analysis of the existing site
 * My next step was to plan the different functions I was going to need
-* Next, I planned the flow of the site: what buttons were going to do what etc.
+* Next, I planned the flow of the site: what functions I was going to use where etc. 
+* After that, I started implementing the functions I had planned. I started with the getAllShows() function; then I did the displayResults() function, where I also started using bootstrap. 
 
 ## Functional analysis
 * When you first see the site, all of the shows are displayed
@@ -33,3 +34,5 @@
 * https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 * https://stackoverflow.com
 * Lessons from Ehb: development IV
+* https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+* https://htmldog.com/guides/javascript/advanced/creatingelements/

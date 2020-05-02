@@ -1,8 +1,10 @@
-// A very basic web server in node.js
-// Stolen from: Node.js for Front-End Developers by Garann Means (p. 9-10)require('dotenv').load();
-require('dotenv').config();
 const fetch = require('node-fetch');
 
+
+
+
+// A very basic web server in node.js
+// Stolen from: Node.js for Front-End Developers by Garann Means (p. 9-10)
 
 const apiKey = process.env.apiKey;
 const apiUrl = process.env.apiUrl;
@@ -91,3 +93,6 @@ function getFile(localPath, res, mimeType) {
 		}
 	});
 }
+
+
+

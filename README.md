@@ -24,11 +24,12 @@
 * displayResults(list of results) -> Shows all of the results on the webpage
 * getAllShows() -> returns a list of all the shows, without filtering
 * getFilters() -> returns a list of all the filters that are currently selected
-* applyFilters(list of all shows, list of filters) -> returns a list of all the shows left over when applying the filters
+* applyFilters(list of filters) -> returns a list of all the shows left over when applying the filters
+* showGenreResults() -> displays the amount of results / genre based on the audience filters
 
 ## Flow Planning
 * First loading the page: displayResults(getAllShows())
-* When selecting or deselecting a filter: displayResults(applyFilters(getAllShows(), getFilters()))
+* When selecting or deselecting a filter: displayResults(applyFilters(getFilters()))
 * When clearing the list of filters: displayResults(getAllShows())
 
 ## Resources used

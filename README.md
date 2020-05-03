@@ -5,6 +5,7 @@
 * My next step was to plan the different functions I was going to need
 * Next, I planned the flow of the site: what functions I was going to use where etc. 
 * After that, I started implementing the functions I had planned. I started with the getAllShows() function; then I did the displayResults() function, where I also started using bootstrap. 
+* I figured out there was a problem with linking the script using the server that was already set up, so I set up my own Express server to fix this.
 
 ## Functional analysis
 * When you first see the site, all of the shows are displayed
@@ -36,3 +37,5 @@
 * Lessons from Ehb: development IV
 * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 * https://htmldog.com/guides/javascript/advanced/creatingelements/
+* https://getbootstrap.com/
+* https://expressjs.com/en/starter/hello-world.html

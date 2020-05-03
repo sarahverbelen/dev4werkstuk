@@ -4,10 +4,11 @@ getShows.then(function (data) { //when it's done, display the data
     displayResults(data.items);
 })
 
+getFilters();
 
 //this function fetches the entries from entries.json and returns them
 function getAllShows(resolve) {
-    fetch('entries.json')
+    fetch('json')
         .then(response => response.json())
         .then(function (data) {
             resolve(data);
@@ -16,7 +17,7 @@ function getAllShows(resolve) {
 
 function displayResults(results) {
     for (result of results) {
-        console.log(result);
+        //console.log(result);
 
         //the following code makes a card that looks like this:
         //<div class="card" style="width: 18rem;">
@@ -56,4 +57,15 @@ function displayResults(results) {
         document.body.appendChild(card); //append the card to the page
 
     }
+}
+
+function getFilters() {
+    let fullList = document.getElementsByClassName('filter');
+    let checkedFilters = [];
+    for(filter of fullList){
+        if(filter.checked){
+            checkedFilters.push(filter);
+        }
+    }
+    console.log(checkedFilters);
 }

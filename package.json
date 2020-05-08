@@ -23,6 +23,10 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "fetch": "^1.1.0",
+    "jquery": "^3.5.1",
     "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }

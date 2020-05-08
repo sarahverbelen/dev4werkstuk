@@ -1,4 +1,3 @@
-// TO DO: check if the only filters are audience filters
 // TO DO: write tests for at least two functions
 // TO DO: refactor to make it more functional & pure
 

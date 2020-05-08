@@ -6,6 +6,10 @@
 * Next, I planned the flow of the site: what functions I was going to use where etc. 
 * After that, I started implementing the functions I had planned. I started with the getAllShows() function; then I did the displayResults() function, where I also started using bootstrap. 
 * I figured out there was a problem with linking the script using the server that was already set up, so I set up my own Express server to fix this.
+* Then I implemented the getFilters() and applyFilters() functions. I also added another function into my plan, the showGenreResults() function, which I also implemented. 
+* After that I had a few minor bugs to fix. 
+* I tested my application by writing a few tests and figured out some more bugs from this.
+* To finish up, I went through the entire code and tried to make all of the code more functional & pure.
 
 ## Functional analysis
 * When you first see the site, all of the shows are displayed
@@ -36,7 +40,9 @@
 * https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0
 * https://stackoverflow.com
 * Lessons from Ehb: development IV
-* https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+* https://developer.mozilla.org
 * https://htmldog.com/guides/javascript/advanced/creatingelements/
 * https://getbootstrap.com/
 * https://expressjs.com/en/starter/hello-world.html
+* https://jquery.com/
+* https://placeholder.com/

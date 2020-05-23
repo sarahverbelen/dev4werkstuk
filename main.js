@@ -18,7 +18,6 @@ function getAllShows(resolve) {
 }
 
 function displayResults(results) {
-    let resultDiv = document.createElement('div');
 
 
     //empty the page
@@ -63,13 +62,13 @@ function displayResults(results) {
 
         card.appendChild(cardBody); //append the cardbody to the card
 
-        resultDiv.appendChild(card); //append to the div that holds all cards
+        let resultDiv = $('.result');
+
+        resultDiv.append(card); //append to the div that holds all cards
 
 
 
     }
-
-    document.body.appendChild(resultDiv); //append to the page
 }
 
 
@@ -206,3 +205,5 @@ function applyFilters(filters) {
                 })
 
             }
+
+module.exports = getFilters;

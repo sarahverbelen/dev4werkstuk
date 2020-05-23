@@ -47,4 +47,5 @@
 * https://jquery.com/
 * https://placeholder.com/
 * https://www.albertgao.xyz/2017/05/24/how-to-test-expressjs-with-jest-and-supertest/
-* https://jestjs.io/docs/en/tutorial-jquery
+* https://jestjs.io/en/
+* https://www.phpied.com/jest-jquery-testing-vanilla-app/

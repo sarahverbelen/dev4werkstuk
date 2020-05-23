@@ -1,12 +1,12 @@
-// TO DO: write tests for at least two functions
-// TO DO: refactor to make it more functional & pure
-
-
 //when first entering the site, load the entire list of shows
-let getShows = new Promise(getAllShows); //because this is an asynchronous funtion, we need to wait for it
+function displayAll() {
+    let getShows = new Promise(getAllShows); //because this is an asynchronous funtion, we need to wait for it
 getShows.then(function (data) { //when it's done, display the data
     displayResults(data.items);
-})
+});
+}
+
+displayAll();
 
 //this function fetches the entries from entries.json and returns them
 function getAllShows(resolve) {
@@ -62,9 +62,7 @@ function displayResults(results) {
 
         card.appendChild(cardBody); //append the cardbody to the card
 
-        let resultDiv = $('.result');
-
-        resultDiv.append(card); //append to the div that holds all cards
+        $(".result").append(card); //append to the div that holds all cards
 
 
 
@@ -206,4 +204,6 @@ function applyFilters(filters) {
 
             }
 
-module.exports = getFilters;
+module.exports.getFilters = getFilters;
+module.exports.displayAll = displayAll;
+module.exports.displayResults = displayResults;
